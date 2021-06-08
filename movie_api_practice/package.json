@@ -1,0 +1,16 @@
+{
+  "name": "movie_api_practice",
+  "version": "1.0.0",
+  "description": "API practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Adekunle",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0"
+  }
+}

@@ -5,7 +5,6 @@ const app = express();
 app.use(express.json());
 
 const movies = [
-
   { id: 1, title: "Infinite War", price: "N500" },
   { id: 2, title: "Infinites", price: "N300" },
   { id: 3, title: "Game of Thrones", price: "N600" },
@@ -16,6 +15,7 @@ const movies = [
   { id: 8, title: "The 100", price: "N200" },
   { id: 9, title: "The Dynasty", price: "N1200" },
   { id: 10, title: "Furious 9", price: "N1500" },
+  { id: 11, title: "The Hitman's Wife", price: "N500" },
 ];
 
 app.get("/", (req, res) => {
